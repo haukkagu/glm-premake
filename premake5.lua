@@ -9,6 +9,7 @@ project "GLM"
 	{
 		"glm/**"	
 	}
+	includedirs {"."}
     
 	filter "system:linux"
 		pic "On"
